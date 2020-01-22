@@ -41,12 +41,12 @@ spec:
           lifecycle:
             postStart:
               exec:
-                command: ['sh', '-c', 'charts-cli add-user --first-name "Oleksii" --last-name "Romanko" --email "romanko1993@gmail.com" --password "usera_dmin032!" --role "UserAdmin"']
+                command: ['sh', '-c', 'charts-cli add-user --first-name "O" --last-name "R" --email "noone@gmail.com" --password "usera_!" --role "UserAdmin"']
           env: 
             - name: CHARTS_SUPPORT_WIDGET_AND_METRICS
               value: "off"
             - name: CHARTS_MONGODB_URI
-              value: mongodb://pythoncoderr:azxcf12345@52.200.77.77:27018/admin
+              value: mongodb://pythoncoderr:azxcf123456@12.200.77.77:27018/admin
           ports:
             - name: http
               containerPort: 80
